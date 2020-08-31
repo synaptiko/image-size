@@ -1,8 +1,8 @@
 import * as fs from 'fs'
 import * as path from 'path'
-import Queue from 'queue'
-import { typeHandlers } from './types'
-import { detector } from './detector'
+import { Queue } from '@synaptiko/queue'
+import { typeHandlers } from './types.js'
+import { detector } from './detector.js'
 import { ISizeCalculationResult } from './types/interface'
 
 type CallbackFn = (e: Error | null, r?: ISizeCalculationResult) => void

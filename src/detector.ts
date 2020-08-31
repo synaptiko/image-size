@@ -1,4 +1,4 @@
-import { typeHandlers } from './types'
+import { typeHandlers } from './types.js'
 
 const keys = Object.keys(typeHandlers)
 

@@ -2,7 +2,7 @@
 // TO-DO: support big-endian as well
 import * as fs from 'fs'
 import { IImage } from './interface'
-import { readUInt } from '../readUInt'
+import { readUInt } from '../readUInt.js'
 
 // Read IFD (image-file-directory) into a buffer
 function readIFD(buffer: Buffer, filepath: string, isBigEndian: boolean) {

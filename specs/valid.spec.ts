@@ -2,9 +2,9 @@ import { expect } from 'chai'
 import { sync as globSync } from 'glob'
 import { extname, resolve } from 'path'
 import { openSync, readSync } from 'fs'
-import { imageSize } from '../lib'
-import { detector } from '../lib/detector'
-import { ISizeCalculationResult } from '../lib/types/interface'
+import { imageSize } from '../src'
+import { detector } from '../src/detector'
+import { ISizeCalculationResult } from '../src/types/interface'
 
 const bufferSize = 8192
 

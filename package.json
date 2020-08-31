@@ -1,6 +1,6 @@
 {
   "name": "@synaptiko/image-size",
-  "version": "0.9.1",
+  "version": "0.10.5",
   "description": "get dimensions of any image file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
     "image-size": "bin/image-size.js"
   },
   "scripts": {
-    "pretest": "eslint --ext .ts,.js bin lib specs",
+    "pretest": "eslint --ext .ts,.js bin src specs",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "clean": "rm -rf dist docs",
@@ -66,6 +66,6 @@
     "typescript": "4.0.2"
   },
   "dependencies": {
-    "queue": "6.0.1"
+    "@synaptiko/queue": "^6.1.3"
   }
 }

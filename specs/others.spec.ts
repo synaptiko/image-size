@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 import { openSync, readSync } from 'fs'
 import { expect } from 'chai'
-import { imageSize, types } from '../lib'
+import { imageSize, types } from '../src'
 
 // If something other than a buffer or filepath is passed
 describe('Invalid invocation', () => {

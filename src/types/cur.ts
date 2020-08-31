@@ -1,5 +1,5 @@
 import { IImage } from './interface'
-import { ICO } from './ico'
+import { ICO } from './ico.js'
 
 const TYPE_CURSOR = 2
 export const CUR: IImage = {
