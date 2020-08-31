@@ -1,5 +1,5 @@
 {
-  "name": "image-size",
+  "name": "@synaptiko/image-size",
   "version": "0.9.0",
   "description": "get dimensions of any image file",
   "main": "dist/index.js",
@@ -43,7 +43,7 @@
     "ico",
     "cur"
   ],
-  "repository": "git://github.com/image-size/image-size.git",
+  "repository": "git://github.com/synaptiko/image-size.git",
   "author": "netroy <aditya@netroy.in> (http://netroy.in/)",
   "license": "MIT",
   "devDependencies": {
