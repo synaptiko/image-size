@@ -73,8 +73,6 @@ function syncFileToBuffer(filepath: string) {
   return buffer
 }
 
-// eslint-disable-next-line @typescript-eslint/no-use-before-define
-module.exports = exports = imageSize // backwards compatibility
 export function imageSize(input: Buffer | string): ISizeCalculationResult
 export function imageSize(input: string, callback: CallbackFn): void
 /**
@@ -104,5 +102,5 @@ export function imageSize(input: Buffer | string, callback?: CallbackFn): ISizeC
   }
 }
 
-export const setConcurrency = (c: number) => { queue.concurrency = c }
+export const setConcurrency = (c: number): void => { queue.concurrency = c }
 export const types = Object.keys(typeHandlers)
